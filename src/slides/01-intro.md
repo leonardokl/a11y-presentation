@@ -1,25 +1,126 @@
-# Gatsby Deck
+# Acesibilidade
 
-Create presentations using Gatsby & React.
-
----
-
-> Inscrutable icons litter the face of the devices even though the research
-> community has long demonstrated that people cannot remember the meaning of
-> more than a small number of icons […] Who can remember what each icon
-> means? Not me.
-> <cite>Don Norman</cite>
+Tornando a web acessível para todos
 
 ---
 
-# 🤫
+# Testando a acessibilidade
+
+- Navege com o teclado
+- Utilize leitores de tela
+- Utilize ferramentas de validação
+- Observar o contraste das cores
+- Aumente o zoom
 
 ---
 
-## Slides are written in Markdown!
+# Exemplos
 
-Here's the source of the first slide:
+- [GitHub](https://github.com/)
 
-    # Gatsby Deck
+---
 
-    Create presentations using Gatsby & React.
+# Ferramentas
+
+- Axe
+- Lighthouse
+- NoCoffee
+
+---
+# Leitores de tela
+
+- NVDA (Windows)
+- Orca (Linux)
+- Voiceover (Mac)
+- Chrome Vox (Chrome)
+
+---
+
+# Responsividade
+
+---
+
+# Tabbable Elements
+
+---
+
+# Focus trap
+
+---
+
+# Gerenciamento de foco
+
+- Teclas de ação
+- Destaque os elementos que possuem foco
+- tabIndex
+- Modais
+
+---
+
+# tabIndex
+
+```html
+tabIndex="-1"
+tabIndex="0"
+tabIndex="1"
+```
+
+---
+
+# Exemplo
+
+---
+
+# Labels
+
+---
+
+# ARIA
+
+---
+
+
+# Avisos
+
+- status
+- alert
+
+---
+
+# Exemplo
+
+___
+
+
+# Skip links
+
+___
+
+# Navegação
+
+---
+
+
+# Semântica
+
+- Heading
+- Landmark
+- Navegação X Ação
+
+---
+
+# Cores
+
+---
+
+# Lint
+
+- eslint-plugin-jsx-a11y
+
+---
+
+# Cursos
+
+- [Accessibility in JavaScript Applications - Frontend Masters](https://frontendmasters.com/courses/javascript-accessibility/)
+- [Website Accessibility - Frontend Masters](https://frontendmasters.com/courses/web-accessibility/)
+- [Web Accessibility by Google - Udacity](https://www.udacity.com/course/web-accessibility--ud891)
