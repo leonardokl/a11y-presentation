@@ -31,15 +31,15 @@ Tornando a web acessível para todos
 
 ---
 
-# Responsividade
-
----
-
 # Ferramentas de validação
 
 - Axe
 - Lighthouse
 - NoCoffee
+
+---
+
+# Responsividade
 
 ---
 
@@ -50,20 +50,16 @@ Tornando a web acessível para todos
 
 ---
 
-# O site deve possuir informações sobre a sua acessibilidade
+# Modal
+
+- armadilha de foco
+- teclas de ação
 
 ---
 
 # Gerenciamento de foco
 
-- Teclas de ação
-- Destaque os elementos que possuem foco
 - tabIndex
-- Modais
-
----
-
-# Armadilha de foco
 
 ---
 
@@ -77,11 +73,7 @@ tabIndex="1"
 
 ---
 
-# Labels
-
----
-
-# Comunidados
+# Comunicados
 
 - status
 - alert
@@ -102,16 +94,19 @@ Atalhos para o menu principal, para o conteúdo e para a caixa de pesquisa
 
 ___
 
-# Navegação
+# Títulos das páginas
+
+O título da página deve ser descritivo e informativo, devendo representar o conteúdo principal da página.
 
 ---
 
+## [assunto principal da página] – [nome do sítio ou sistema]
+ePWG - Padrões Web em Governo Eletrônico
+
+---
 
 # Semântica
 
-- Heading
-- Landmark
-- Navegação X Ação
 - [Padrões da W3C](https://w3c.br/Home/WebHome)
 
 ---
@@ -120,7 +115,23 @@ ___
 
 ---
 
+# Landmarks
+
+- header
+- main
+- navigation
+
+---
+
+# Navegação X Ação
+
+---
+
 # Listas
+
+---
+
+# O site deve possuir informações sobre a sua acessibilidade
 
 ---
 
@@ -130,8 +141,6 @@ ___
 
 ---
 
-# Cursos
+# Obrigado
 
-- [Accessibility in JavaScript Applications - Frontend Masters](https://frontendmasters.com/courses/javascript-accessibility/)
-- [Website Accessibility - Frontend Masters](https://frontendmasters.com/courses/web-accessibility/)
-- [Web Accessibility by Google - Udacity](https://www.udacity.com/course/web-accessibility--ud891)
+---
