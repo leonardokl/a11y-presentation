@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/a11y-presentation",
   siteMetadata: {
     name: `Leonardo Luiz`,
     title: `Acessibilidade`,

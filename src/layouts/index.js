@@ -9,7 +9,7 @@ import './index.css';
 
 const Header = ({ name, title, date }) => (
   <header>
-    <Link to="/1">
+    <Link to="/1" aria-label="Ir para o primeiro slide">
       <span>{name}</span> — {title}
     </Link>
     <time>{date}</time>

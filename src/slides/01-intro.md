@@ -1,32 +1,20 @@
-# Acesibilidade
+# Acessibilidade
 
 Tornando a web acessível para todos
 
 ---
 
-# Testando a acessibilidade
-
-- Navege com o teclado
-- Utilize leitores de tela
-- Utilize ferramentas de validação
-- Observar o contraste das cores
-- Aumente o zoom
+# Como testar a acessibilidade de um site?
 
 ---
 
-# Exemplos
+# Navegue com o teclado
 
-- [GitHub](https://github.com/)
-
----
-
-# Ferramentas
-
-- Axe
-- Lighthouse
-- NoCoffee
+- Elementos de interação
+- Destaque no foco
 
 ---
+
 # Leitores de tela
 
 - NVDA (Windows)
@@ -36,15 +24,33 @@ Tornando a web acessível para todos
 
 ---
 
+# Cores
+
+- Relação de contraste
+- Não utilizar apenas as cores para diferenciar elementos
+
+---
+
 # Responsividade
 
 ---
 
-# Tabbable Elements
+# Ferramentas de validação
+
+- Axe
+- Lighthouse
+- NoCoffee
 
 ---
 
-# Focus trap
+# Formulários
+
+- labels
+- campos obrigatórios
+
+---
+
+# O site deve possuir informações sobre a sua acessibilidade
 
 ---
 
@@ -54,6 +60,10 @@ Tornando a web acessível para todos
 - Destaque os elementos que possuem foco
 - tabIndex
 - Modais
+
+---
+
+# Armadilha de foco
 
 ---
 
@@ -67,32 +77,28 @@ tabIndex="1"
 
 ---
 
-# Exemplo
-
----
-
 # Labels
 
 ---
 
-# ARIA
-
----
-
-
-# Avisos
+# Comunidados
 
 - status
 - alert
 
 ---
 
-# Exemplo
+# Links para os conteúdos
 
-___
+O primeiro link da página deve ser um atalho para o conteúdo principal
 
+- [Google](https://www.google.com/search?q=w3c)
 
-# Skip links
+---
+
+# accesskey
+
+Atalhos para o menu principal, para o conteúdo e para a caixa de pesquisa
 
 ___
 
@@ -106,10 +112,15 @@ ___
 - Heading
 - Landmark
 - Navegação X Ação
+- [Padrões da W3C](https://w3c.br/Home/WebHome)
 
 ---
 
-# Cores
+# Níveis de cabeçalho
+
+---
+
+# Listas
 
 ---
 
