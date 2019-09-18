@@ -102,11 +102,25 @@ tabIndex="1"
 ```
 
 ---
+    <button tabIndex="-1">Primeiro item</button>
+    <button>Segundo item</button>
+    <button tabIndex="1">Terceiro item</button>
+
+<button tabIndex="-1" id="primeiroItem">Primeiro item</button>
+<button>Segundo item</button>
+<button tabIndex="1">Terceiro item</button>
+
+---
 
 # Comunicados
 
 - status
 - alert
+
+---
+
+    <div role="status">Os dados foram atualizados</div>
+    <div role="alert">Ocorreu um erro</div>
 
 ---
 
@@ -156,8 +170,24 @@ ePWG - Padrões Web em Governo Eletrônico
 ## Navegação X Ação
 
 ---
+    <a>Remover</a>
+<a>Remover</a>
+
+---
 
 # Listas
+
+---
+
+    <ul>
+        <li>Azul</li>
+        <li>Vermelhor</li>
+    </ul>
+
+<ul>
+    <li>Azul</li>
+    <li>Vermelhor</li>
+</ul>
 
 ---
 
